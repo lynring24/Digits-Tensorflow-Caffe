@@ -1,0 +1,15 @@
+
+lenet_base.json
+accuracy: 0.9902
+precision: 0.9900903105360852
+recall: 0.9900931978409526
+
+lenet_100.json
+accuracy: 0.9904
+precision: 0.9903186936307546
+recall: 0.9903365842427533
+
+lenet_1_adadelta.json
+accuracy: 0.5338
+precision: 0.5246219637257133
+recall: 0.5296046833851081
