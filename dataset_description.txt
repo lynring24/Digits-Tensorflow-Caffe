@@ -1,0 +1,37 @@
+{
+  "CreateDbTasks": [
+    {
+      "backend": "lmdb", 
+      "compression": "none", 
+      "encoding": "png", 
+      "entries": 45002, 
+      "image_channels": 1, 
+      "image_height": 28, 
+      "image_width": 28, 
+      "name": "Create DB (train)"
+    }, 
+    {
+      "backend": "lmdb", 
+      "compression": "none", 
+      "encoding": "png", 
+      "entries": 14998, 
+      "image_channels": 1, 
+      "image_height": 28, 
+      "image_width": 28, 
+      "name": "Create DB (val)"
+    }
+  ], 
+  "ParseFolderTasks": [
+    {
+      "label_count": 10, 
+      "name": "Parse Folder (train/val)", 
+      "test_count": 0, 
+      "train_count": 45002, 
+      "val_count": 14998
+    }
+  ], 
+  "directory": "C:\\Digits\\digits\\jobs\\20180706-111701-2e5b", 
+  "id": "20180706-111701-2e5b", 
+  "name": "mnist_dataset", 
+  "status": "Done"
+}

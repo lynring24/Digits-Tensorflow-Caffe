@@ -1,0 +1,31 @@
+{
+  "caffe flavor": "BVLC", 
+  "caffe version": "1.0.0", 
+  "creation time": "2018-07-06 17:06:47.809000", 
+  "dataset_id": "20180706-111701-2e5b", 
+  "deploy file": "deploy.prototxt", 
+  "digits version": "6.1.1", 
+  "directory": "C:\\Digits\\digits\\jobs\\20180706-170647-78f1", 
+  "framework": "caffe", 
+  "id": "20180706-170647-78f1", 
+  "image dimensions": [
+    28, 
+    28, 
+    1
+  ], 
+  "image resize mode": "squash", 
+  "job id": "20180706-170647-78f1", 
+  "labels file": "labels.txt", 
+  "mean file": "mean.binaryproto", 
+  "mean subtraction": "image", 
+  "model file": "original.prototxt", 
+  "name": "lenet_1", 
+  "snapshot file": "snapshot_iter_704.caffemodel", 
+  "snapshots": [
+    1
+  ], 
+  "solver file": "solver.prototxt", 
+  "status": "Done", 
+  "train_val file": "train_val.prototxt", 
+  "username": "et"
+}
